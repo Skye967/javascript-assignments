@@ -1,0 +1,82 @@
+* {
+
+    display: flex;
+    display: absolute;
+    justify-content: center;
+
+
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container {
+    border: 3px solid black;
+    height: 150px;
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    text-align: center;
+
+}
+
+.likeContainer {
+    position: relative;
+    background-color: rgb(235, 137, 153);
+
+}
+
+.likeContainer .child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.content {
+    position: relative;
+
+
+}
+
+#butt {
+    background-color: rgb(58, 126, 126);
+}
+
+#butt2 {
+    background-color: rgb(58, 126, 126);
+}
+
+#butt3 {
+    background-color: rgb(58, 126, 126);
+}
+
+a {
+    margin: 0px 3px;
+}
+
+.sideContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    height: 300px;
+    width: 250px;
+    margin: 80px 20px;
+
+}
+
+.sideContainer img {
+    height: 100px;
+    width: 100px;
+
+}
+
+.sideContainer a {
+    margin: 10px 0px;
+}

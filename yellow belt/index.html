@@ -1,0 +1,75 @@
+<!DOCTYPE html><html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Yellow Belt</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="top-navbar">
+        <img class="leaf" src="./images/assets/leaf.png" alt="">
+        <h1>EasyBay</h1>
+        <form class="search-bar">
+            <input class="search" type="text" placeholder="Search for anything" name="search">
+            <img class="glass" src="./images/assets/search-dark.png" alt="">
+        </form>
+        <a>Sign In</a>   
+        <img class="cart" src="./images/assets/cart-dark.png" alt="" onclick="cartAlert()" >     
+    </div>
+    <div class="sub-navbar">
+        <a>Aeonium</a>
+        <a>Adormischus</a>
+        <a>Agave</a>
+        <a>Aloe</a>
+        <a>Anacampseros</a>
+        <a>Aristaloe</a>
+        <a>More...</a>
+    </div>
+    <div class="content-title">
+        <h1>Your Source for Seriously Succulent Specialties</h1>
+    </div>
+    <div class="main-container">
+        <div class="subcontainer1">
+            <div class="container1">
+                <div class="container1-content">
+                    <div>
+                        <p>Discover succ- ulent varieties one pot or rack at a time!</p>
+                        <p>Discover &rarr;</p>
+                    </div>
+                    <img id="images"  src="./images/assets/succulents-1.jpg" alt="" onmouseover="changepic()" onmouseout="changepic2()">
+                </div>
+            </div>
+            <div class="container2">
+                <img src="./images/assets/aloe-m.jpg" alt="">
+                <h3>Soothing Aloe</h3>
+            </div>
+        </div>
+        <div class="img-container">
+            <div class="succulents">
+                <img src="./images/assets/aeonium-s.jpg" alt="">
+                <img src="./images/assets/aloe-s.jpg" alt="">
+                <img src="./images/assets/cactus-s.jpg" alt="">
+                <img src="./images/assets/echeveria-s.jpg" alt="">
+                <img src="./images/assets/sedum-s.jpg" alt="">
+                <img src="./images/assets/sempervivum-s.jpg" alt="">
+            </div>
+            <div class="labels">
+                <p>Aeonium</p>
+                <p>Aloe</p>
+                <p>Cactus</p>
+                <p>Echeveria</p>
+                <p>Sedum</p>
+                <p>Sempervivum</p>
+            </div>
+            </div>
+        </div>
+        <div class="cookie-container">
+            <img src="./images/assets/alert-dark.png" alt="">
+            <p>This site makes the use of third-party cookies,by clicking "I accept" you agree to the terms of our cookie policy.</p>
+            <button class="btn" onclick="removeCookie()" >I accept</button>
+        </div>
+        <script src="script.js" async defer></script>
+    </body>
+</html>

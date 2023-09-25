@@ -1,0 +1,27 @@
+.shadow {
+    box-shadow: 5px 5px 5px#999;
+    position: relative;
+    cursor: pointer;
+
+}
+
+h3 {
+    margin-left: 300px;
+}
+
+.myVideo {
+    display: flex;
+    height: 240px;
+    width: 430px;
+    border: 10px solid #000;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+}
+
+video {
+
+    width: 420px;
+    padding: 10px;
+    margin: 10px;
+}

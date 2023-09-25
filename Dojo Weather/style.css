@@ -1,0 +1,97 @@
+.top-navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(101, 166, 226);
+    color: white;
+}
+
+.top-navbar a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.content-header p {
+    position: relative;
+    left: 120px;
+
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.content1,
+.content2,
+.content3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 170px;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.degrees {
+    color: red;
+    margin: 0px 5px;
+
+}
+
+#blue {
+    color: rgb(4, 110, 180)
+}
+
+.weather {
+    height: 100px;
+    width: 100px;
+}
+
+.deg {
+    display: flex;
+}
+
+.cookie-container {
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-around;
+    width: 700px;
+    left: 200px;
+
+}
+
+.cookie-content {
+    width: 500px;
+}
+
+.cookie-content h5 {
+    font-size: x-large;
+    margin: 0px;
+}
+
+.cookie-container img {
+    height: 75px;
+
+}
+
+.cookie-container button {
+    background-color: aquamarine;
+    height: 30px;
+    width: 80px;
+    box-shadow: 3px 3px black;
+}

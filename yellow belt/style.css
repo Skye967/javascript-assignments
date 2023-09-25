@@ -1,0 +1,185 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.top-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px
+}
+
+.top-navbar h1 {
+    font-size: 50px;
+    margin: 20px;
+}
+
+.leaf {
+    height: 60px;
+    width: 60px;
+    background-color: rgb(54, 204, 154);
+}
+
+.glass {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: 50px;
+}
+
+.cart {
+    height: 40px;
+    width: 40px;
+    margin-right: 40px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 450px;
+}
+
+.search-bar input {
+    padding-left: 10px;
+}
+
+
+.search {
+    height: 40px;
+    width: 400px;
+    border: 3px solid black;
+    color: darkgrey;
+    font-size: larger;
+    border-radius: 25px;
+}
+
+.sub-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 50px;
+    border-bottom: 5px solid black;
+    font-size: 20px;
+}
+
+.content-title h1 {
+    font-weight: 100;
+}
+
+.subcontainer1 {
+    display: flex;
+    flex-direction: row;
+    height: 320px;
+    width: 900px;
+}
+
+.container1 {
+    height: 320px;
+    width: 600px;
+}
+
+.container1-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(54, 204, 154);
+}
+
+.container1-content img {
+    height: 300px;
+    width: 310px;
+
+}
+
+.container1-content p {
+    width: 190px;
+    margin: 0px;
+    background-color: rgb(54, 204, 154);
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 50px;
+    color: whitesmoke;
+    font-size: x-large;
+}
+
+.container2 {
+    height: 275px;
+    width: 275px;
+    margin-left: 20px;
+}
+
+.container2 img {
+    height: 200px;
+    width: 273px;
+}
+
+.container2 h3 {
+    background-color: rgb(54, 204, 154);
+    margin: none;
+    display: flex;
+    color: whitesmoke;
+    padding: 30px 30px 30px 30px;
+
+}
+
+.img-container {
+    background-color: rgb(118, 214, 209);
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+.succulents {
+    display: flex;
+    justify-content: space-around;
+}
+
+.succulents img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.labels {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.labels p {
+    width: 90px;
+    text-align: center;
+}
+
+.cookie-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 890px;
+    border: 3px solid black;
+}
+
+.cookie-container img {
+    height: 50px;
+    width: 50px;
+}
+
+.cookie-container p {
+    width: 550px;
+}
+
+.cookie-container button {
+    width: 90px;
+    height: 30px;
+    box-shadow: 3px 3px black;
+    background-color: rgb(54, 204, 154);
+    color: whitesmoke;
+}

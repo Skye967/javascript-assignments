@@ -1,0 +1,46 @@
+<!DOCTYPE <!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+ <div id="calculator">
+  <div id="display">0</div>
+  <div class="row">
+    <button class="seven" onclick="press(7);">7</button>
+    <button class="eight" onclick="press(8);">8</button>
+    <button class="nine" onclick="press(9);">9</button>
+    <button class="divide" id="operator" onclick="setOP('/');">÷</button>
+  </div>
+  <div class="row">
+    <button class="four" onclick="press(4);">4</button>
+    <button class="five" onclick="press(5);">5</button>
+    <button class="six" onclick="press(6);">6</button>
+    <button class="times" id="operator" onclick="setOP('*');">×</button>
+  </div>
+  <div class="row">
+    <button class="one" onclick="press(1);">1</button>
+    <button class="two" onclick="press(2);">2</button>
+    <button class="three" onclick="press(3);">3</button>
+    <button class="minus" id="operator" onclick="setOP('-');">−</button>
+  </div>
+  <div class="row">
+    <button class="c" onclick="clr();">C</button>
+    <button class="zero" onclick="press(0);">0</button>
+    <button class="period" onclick="press('.');">.</button>
+    <button class="plus" id="operator" onclick="setOP('+');">+</button>
+  </div>
+  <div class="row">
+    <button class="equal" id="equals" onclick="calculate()">=</div>
+  </div>
+<div>
+        
+        <script src="script2.js" async defer></script>
+    </body>
+</html>

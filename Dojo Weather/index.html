@@ -1,0 +1,74 @@
+<!DOCTYPE <!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dojo Weather</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="top-navbar">
+            <h1 class="navbar-title">Dojo Weather</h1>
+            <a onclick="weatherAlert()" class="nav-links" href="#">Burbank</a>
+            <a onclick="weatherAlert()" class="nav-links" href="#">Chicago</a>
+            <a onclick="weatherAlert()" class="nav-links" href="#">Dallas</a>
+        </div>
+        <div class="mainContainer">
+            <div class="content-header">
+                <h2 class="content-title">San Jose</h2>
+                <p>Show temperature in</p>
+                <select  id="temperature" onchange="tempCon(this)">
+                    <option id="celcius" value="C">C &#730</option>
+                    <option id="ferinheight" value="F">F &#730</option>
+                </select>
+            </div>
+            <div class="content-container">
+                <div class="content1">
+                    <h3 class="content-title">Today</h3>
+                    <img class="weather" src="./assets/some_rain.png">
+                    <p>some rain</p>
+                    <div class="deg">
+                        <h4  class="degrees">23.9</h4>&#730<h4 id="blue" class="degrees">18.3</h4>&#730
+                    </div>
+                </div>
+                <div class="content2">
+                    <h3 class="content-title">Tomorrow</h3>
+                    <img class="weather" src="./assets/some_sun.png">
+                    <p>some sun</p>
+                    <div class="deg">
+                        <h4  class="degrees">26.7</h4>&#730<h4 id="blue" class="degrees">18.9</h4>&#730
+                    </div>
+                </div>
+                <div class="content3">
+                    <h3 class="content-title">Friday</h3>
+                    <img class="weather" src="./assets/some_clouds.png">
+                    <p>some clouds</p>
+                    <div class="deg">
+                        <h4  class="degrees">20.6</h4>&#730<h4 id="blue" class="degrees">16.1</h4>&#730
+                    </div>
+                </div>
+                <div class="content1">
+                    <h3 class="content-title">Saturday</h3>
+                    <img class="weather" src="./assets/some_sun.png">
+                    <p>some sun</p>
+                    <div class="deg">
+                        <h4 class="degrees">25.6</h4>&#730<h4 id="blue" class="degrees">21.1</h4>&#730
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cookie" class="cookie-container">
+            <img src="./assets/cookie.png">
+            <div class="cookie-content">
+                <h5>Stop! Cookie Time</h5>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic.<a href="#">Read more...</a></p>
+            </div>
+            <button  class="cookie-button" onclick="closeCookie(this)">I Accept</button>
+        </div>
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE <!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="videopreview.css">
+    </head>
+    <body>
+        <h3>Check it out</h3>
+<div class="myVideo" onmouseover="addShadow(this)" onmouseout="removeShadow(this)">
+    <video id="video"  onmouseover="playVid()" onmouseout="pauseVid()"  >
+    <source src="./pixvid2.mp4" >
+</video>
+</div>
+
+<!--<p>Click the button to get the duration of the video, in seconds.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>-->
+
+        
+        <script src="videopreview.js" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,338 @@
+* {}
+
+#maincontainer {
+    display: flex;
+    flex-direction: row;
+    border: 5px solid black;
+    justify-content: center;
+
+
+}
+
+.subcontainer1 {
+    height: 900px;
+    width: 450px;
+}
+
+.subcontainer2 {
+    height: 900px;
+    width: 250px;
+    margin-top: 20px;
+
+
+}
+
+.container1 {
+    border-radius: 5%;
+    border: 5px solid gray;
+    height: 240px;
+    width: 400px;
+    margin: 20px;
+    padding: 10px 0px 0px 0px;
+
+}
+
+.container2 {
+    border-radius: 5%;
+    border: 5px solid gray;
+    height: 170px;
+    width: 400px;
+    margin: 20px;
+    margin-top: 10px;
+    padding: 0px:
+}
+
+.container3 {
+    border-radius: 5%;
+    border: 5px solid gray;
+    width: 200px;
+    margin-bottom: 10px;
+
+
+}
+
+.container4 {
+    border-radius: 5%;
+    border: 5px solid gray;
+    height: 240px;
+    width: 200px;
+}
+
+.blueheader {
+    height: 70px;
+    background-color: darkcyan;
+    position: relative;
+    bottom: 10px;
+}
+
+.user img {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    bottom: 50px;
+}
+
+.jane {
+    position: relative;
+    margin-left: 10px;
+    bottom: 70px;
+}
+
+.div1 {
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+    padding: 0px;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 80px;
+
+}
+
+.div1 p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.grayheader {
+    background-color: rgb(59, 58, 58);
+    color: white;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 8px;
+    height: 40px;
+}
+
+.CD>* {
+    padding: 8px;
+    margin: 0px;
+}
+
+] h2 {
+    font-size: larger;
+}
+
+.graytext {
+    color: darkgray;
+}
+
+#two {
+    border-radius: 50%;
+    background-color: lightgray;
+    padding: 4px 8px;
+    margin-right: 10px;
+
+}
+
+.CRdiv .pic {
+    margin-right: 20px;
+    position: relative;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+
+}
+
+.CRdiv p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.CRdiv button {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    margin-right: ;
+    padding: 0px;
+    left: 10px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px#999;
+    cursor: pointer;
+    background-color: white;
+
+}
+
+.CRdiv .x1,
+.x2,
+.check1,
+.check2 {
+    height: 20px;
+    width: 20px;
+}
+
+
+.grayheader span {
+    background-color: lightgray;
+    color: black;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.C4img p {
+    margin: 5px;
+    padding: 0px;
+}
+
+.C4img img {
+    margin: 0px 10px;
+    position: relative;
+    top: 10px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.C4img a {
+    margin-left: 10px;
+}
+
+.last {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.anchor {
+    color: blue;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.marker {
+    margin-right: 10px;
+}
+
+.nav {
+    display: flex;
+    flex: 10;
+    justify-content: space-between;
+    background-color: rgb(70, 67, 67);
+    color: white;
+
+}
+
+.nav-title {
+    margin-left: 20px;
+    font-family: monaco;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0px 10px;
+    padding: 0px 10px;
+    list-style: none;
+
+}
+
+a {
+    color: rgb(204, 195, 195);
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: monaco;
+}
+
+.btn {
+    background-color: cornflowerblue;
+    border: solid;
+    border-color: black;
+    color: white;
+    padding: 5px 10px;
+    box-shadow: 5px 5px black;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    font-size: 14px;
+    width: 150px;
+}
+
+.active {
+    color: white;
+}
+
+#gear {
+    position: relative;
+    right: 5px
+}
+
+.buttonstyle {
+    height: 30px;
+    width: 30px;
+}
+
+.open-button {
+    color: blue;
+    text-decoration: underline;
+    border: none;
+    position: fixed;
+
+
+}
+
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+.form-container input[type=text],
+.form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+
+.form-container input[type=text]:focus,
+.form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+
+.form-container .cancel {
+    background-color: red;
+}
+
+
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}

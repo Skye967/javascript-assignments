@@ -1,0 +1,50 @@
+<!DOCTYPE <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        
+        <div class='row text-center'>
+    <a class="btn btn-danger editBtn">Edit Off</a>
+</div>
+<form role="form">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <div class="input-group">
+            <input type="text" class="form-control editField" value="Skipper">
+            <input type="text" class="form-control editField" value="McAwesome-Sauce" >
+            <input type="text" class="form-control editField" value="Tester">
+        </div>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>
+        <script>
+        $(document).ready(function () {
+    $('.editBtn').click(function () {
+        if ($('.editField').is('[readonly]')) { //checks if it is already on readonly mode
+            $('.editField').prop('readonly', false);//turns the readonly off
+            $('.editBtn').html('Edit On'); //Changes the text of the button
+            $('.editBtn').css("background", "green"); //changes the background of the button
+            $('.editBtn').css("border", "green"); //changes the border of the button
+        } else { //else we do other things
+            $('.editField').prop('readonly', true);
+            $('.editBtn').html('Edit Off');
+            $('.editBtn').css("background", "red");
+        }
+    });
+
+});
+        
+        </script>
+    </body>
+</html>
